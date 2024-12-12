@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		tags = "@DeleteBookings", 
+		tags = "", 
 		features = {"src/test/resources/features"}, 
 		glue = {"com.cucumber.demo.api.stepdefinition"},
 		plugin = {})

@@ -7,7 +7,10 @@ import io.cucumber.testng.CucumberOptions;
 		tags = "", 
 		features = {"src/test/resources/features"}, 
 		glue = {"com.cucumber.demo.api.stepdefinition"},
-		plugin = {})
+		plugin = { "pretty", "html:test-output/cucumber-reports.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
+		 monochrome = true
+		
+		)
 public class TestRunner extends AbstractTestNGCucumberTests{
 
 

@@ -8,8 +8,8 @@ import static com.cucumber.demo.api.utils.Utils.retreiveBookingIdFromTempFile;
 
 import java.util.List;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.cucumber.demo.api.data.BookingDetails;
 import com.cucumber.demo.api.data.BookingId;
